@@ -42,7 +42,7 @@ public class OpenAPIConfig {
                 .title("Asynchronous Customer Management API")
                 .version("1.0")
                 .contact(contact)
-                .description("This API exposes endpoints to manage tutorials.").termsOfService("https://www.antonio-casado.com/terms")
+                .description("This API exposes endpoints to manage tutorials.").termsOfService("https://www.kode-bytes.com")
                 .license(mitLicense);
 
         return new OpenAPI().info(info).servers(List.of(devServer, prodServer));
